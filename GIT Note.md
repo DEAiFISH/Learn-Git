@@ -6,13 +6,13 @@
 
 + ## 安装git
 
-  ```
+  ```shell
   brew install git
   ```
 
 + ## 新建代码库
 
-  ```
+  ```shell
   在当前目录新建一个Git代码库
   $ git init
   # 新建一个目录，将其初始化为Git代码库
@@ -23,7 +23,7 @@
 
 + ## 配置
 
-  ```
+  ```shell
   # 显示当前的Git配置
   $ git config --list
   # 编辑Git配置文件
@@ -43,7 +43,7 @@
 
 + ## 增加/删除文件
 
-  ```
+  ```shell
   # 添加指定文件到暂存区
   $ git add [file1] [file2] ...
   # 添加指定目录到暂存区，包括子目录
@@ -63,7 +63,7 @@
 
 + ## 代码提交
 
-  ```
+  ```shell
   # 提交暂存区到仓库区
   $ git commit -m [message]
   # 提交暂存区的指定文件到仓库区
@@ -83,7 +83,7 @@
 
 + ## 分支
 
-  ```
+  ```shell
   # 列出所有本地分支
   $ git branch
   # 列出所有远程分支
@@ -123,7 +123,7 @@
 
 + ## 查看信息
 
-  ```
+  ```shell
   # 显示有变更的文件
   $ git status
   # 显示当前分支的版本历史
@@ -169,7 +169,7 @@
 
 + ## 远程同步
 
-  ```
+  ```shell
   # 下载远程仓库的所有变动
   $ git fetch [remote]
   # 显示所有远程仓库
@@ -190,7 +190,7 @@
 
 + ## 撤销
 
-  ```
+  ```shell
   # 恢复暂存区的指定文件到工作区
   $ git checkout [file]
   # 恢复某个commit的指定文件到暂存区和工作区
@@ -217,7 +217,7 @@
 
 + ## 其他
 
-  ```
+  ```shell
   git init                                                  # 初始化本地git仓库（创建新仓库）
   git config --global user.name "xxx"                       # 配置用户名
   git config --global user.email "xxx@xxx.com"              # 配置邮件
