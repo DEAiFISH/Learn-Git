@@ -32,12 +32,14 @@
   $ git config [--global] user.name "[name]"
   $ git config [--global] user.email "[email address]"
   # 颜色设置
-  git config --global color.ui true                         # git status等命令自动着色
+  git config --global color.ui true                         
+  # git status 等命令自动着色
   git config --global color.status auto
   git config --global color.diff auto
   git config --global color.branch auto
   git config --global color.interactive auto
-  git config --global --unset http.proxy                    # remove  proxy configuration on git
+  git config --global --unset http.proxy                    
+  # remove  proxy configuration on git
   
   ```
 
